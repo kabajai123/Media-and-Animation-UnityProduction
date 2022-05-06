@@ -40,10 +40,10 @@ public class aisciprt : MonoBehaviour
 
         hitbox = false;
         walkback = true;
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1);
         walkback = false;
         turnright = true;
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(2);
         turnright = false;
         run = true;
 
